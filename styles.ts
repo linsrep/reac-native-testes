@@ -9,9 +9,9 @@ export const styles = StyleSheet.create({
   /** FOOTER */
   footerContainer: {
     flex: 1 / 3,
-    alignItems: 'center',
+    alignItems: "center",
   },
-  
+
   /** IMAGE */
   imageContainer: {
     flex: 1,
@@ -46,5 +46,83 @@ export const styles = StyleSheet.create({
   buttonLabel: {
     color: "#fff",
     fontSize: 16,
+  },
+
+  /** CIRCLE BUTTON */
+  circleButtonContainer: {
+    width: 84,
+    height: 84,
+    marginHorizontal: 60,
+    borderWidth: 4,
+    borderColor: "#ffd33d",
+    borderRadius: 42,
+    padding: 3,
+  },
+  circleButton: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    borderRadius: 42,
+    backgroundColor: "#fff",
+  },
+
+  /** ICON BUTTON */
+  iconButton: {
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  iconButtonLabel: {
+    color: "#fff",
+    marginTop: 12,
+  },
+
+  /** OPTIONS DO MODAL */
+  optionsContainer: {
+    position: "absolute",
+    bottom: 80,
+  },
+  optionsRow: {
+    alignItems: "center",
+    flexDirection: "row",
+  },
+
+  /** MODAL */
+  modalContent: {
+    height: '25%',
+    width: '100%',
+    backgroundColor: '#25292e',
+    borderTopRightRadius: 18,
+    borderTopLeftRadius: 18,
+    position: 'absolute',
+    bottom: 0,
+  },
+  titleContainer: {
+    height: '16%',
+    backgroundColor: '#464C55',
+    borderTopRightRadius: 10,
+    borderTopLeftRadius: 10,
+    paddingHorizontal: 20,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  title: {
+    color: '#fff',
+    fontSize: 16,
+  },
+
+  /** EMOJI LIST */
+  listContainer: {
+    borderTopRightRadius: 10,
+    borderTopLeftRadius: 10,
+    paddingHorizontal: 20,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  imageEmoji: {
+    width: 100,
+    height: 100,
+    marginRight: 20,
   },
 });
